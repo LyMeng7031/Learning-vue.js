@@ -25,3 +25,33 @@ const skills = ref(["JavaScript", "Vue.js", "CSS", "Vite"]);
     </div>
   </div>
 </template>
+
+<style scoped>
+.profile-card {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: var(--vue-blue);
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.skills-list {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+}
+
+.skills-list li {
+  background: #e1f5fe;
+  color: #01579b;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+</style>

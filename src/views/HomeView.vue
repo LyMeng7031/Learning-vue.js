@@ -18,3 +18,18 @@ const userStore = useUserStore();
     <input v-model="userStore.name" placeholder="Change your name globally" />
   </div>
 </template>
+<style scoped>
+.login-panel {
+  margin-top: 30px;
+  padding: 20px;
+  border-top: 2px dashed #eee;
+  background-color: #f0fff4;
+  border-radius: 8px;
+}
+
+.welcome-text {
+  color: #2f855a;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+</style>

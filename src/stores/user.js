@@ -15,7 +15,6 @@ export const useUserStore = defineStore("user", () => {
   function toggleLogin() {
     isLoggedIn.value = !isLoggedIn.value;
   }
-
   function updateName(newName) {
     name.value = newName;
   }
